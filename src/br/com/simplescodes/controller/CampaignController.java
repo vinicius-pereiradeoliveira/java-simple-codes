@@ -1,18 +1,14 @@
 package br.com.simplescodes.controller;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import com.google.gson.Gson;
 
 import br.com.simplecodes.model.Campaign;
-import br.com.simplecodes.model.Product;
 import br.com.simplecodes.service.CampaignService;
 
 public class CampaignController {
 	
-	@SuppressWarnings("unchecked")
 	public void callCampaign(){
 		System.out.println("===>>> CHAMA METODO DADOS (ARRAYLIST) DE CAMPANHA <<<===");
 		
