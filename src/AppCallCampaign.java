@@ -2,7 +2,7 @@ import br.com.simplescodes.controller.CampaignController;
 import br.com.simplescodes.controller.ProductController;
 
 
-public class App {
+public class AppCallCampaign {
 
 	public static void main(String[] args) {
 		CampaignController campaignControl = new CampaignController();
